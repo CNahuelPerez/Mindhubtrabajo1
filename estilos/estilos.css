@@ -10,7 +10,6 @@ body {
     background-position: center;
 }
 
-
 header {
     background-image: url(../assets/design1_image2.jpg);
     background-size: cover;
@@ -20,13 +19,13 @@ header {
     border-radius: 40px;
     position: relative;
     background-position-y: center;
+    margin-top: 50px;
 }
 
-h1{
+h1 {
     position: relative;
     top: -160px;
     left: -120px;
-
 }
 
 .logo {
@@ -52,7 +51,10 @@ h1{
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
-    position: relative; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .upcoming-events h2 {
@@ -67,10 +69,14 @@ h1{
     margin: 20px auto;
     padding: 0 20px;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 aside {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 aside nav ul {
@@ -90,6 +96,9 @@ aside nav a {
 .events {
     flex: 3;
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .event {
@@ -113,6 +122,9 @@ footer {
     background-color: #f1f1f1;
     padding: 10px 0;
     margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer p {
@@ -139,25 +151,8 @@ footer p {
     padding: 15px 20px;
     text-decoration: none;
     text-align: center;
-    font-weight: bold;
-    color: #fff; 
-    font-size: 20px;
-    background-color: #000; 
-    border-radius: 10px;
-    border: none; 
-    cursor: pointer; 
 }
 
-.nav-buttons li a:hover {
-    background-color: #315174;
-}
-
-footer {
-    width: 100%;
-    text-align: center;
-    background-color: #000000; 
-    padding: 20px 0; 
-    color: #ffffff !important; 
-    font-size: 16px;
-    font-family: 'Arial', sans-serif;
+html, body {
+    overflow: hidden;
 }
