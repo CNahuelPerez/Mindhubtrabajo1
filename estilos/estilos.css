@@ -307,7 +307,7 @@ footer p {
     margin: 37px;
     display: flex;
     flex-direction: column;
-    gap: 82px;
+    gap: 10px;
 }
 
 .nav-buttons li {
