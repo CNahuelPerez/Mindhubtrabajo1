@@ -1,0 +1,189 @@
+h1 {
+    position: absolute;
+    top: -11px;
+    left: -1px;
+    font-size: 250%;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 95vh;
+    overflow: scroll;
+    justify-items: stretch;
+    align-content: space-evenly;
+}
+
+header {
+    background-image: url(../assets/design1_image1.png);
+    background-size: cover;
+    color: #141111;
+    text-shadow: 5px 2px 5px #bd2020;
+    padding: 9%;
+    border-radius: 26px;
+    background-position-y: center;
+    margin-top: -38px;
+    background-position-y: 21%;
+}
+
+.logo {
+    width: 164px;
+    height: 145px;
+    z-index: 1;
+}
+
+.logo img {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    width: 164px;
+    height: 145px;
+    z-index: 1;
+}
+
+.upcoming-events {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 13px 0;
+    margin-top: -47px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 22%;
+}
+
+.upcoming-events h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+fieldset {
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+input[type="radio"] {
+    font-size: 500px;
+}
+
+.division {
+    width: 100%;
+    display: flex;
+}
+
+input[type="text"],
+input[name="birthDate"] {
+    width: 35%;
+}
+
+div,
+label {
+    padding: 3px;
+}
+
+.preSchool span {
+    font-size: 10px;
+    position: relative;
+    top: -8px;
+}
+
+input[name="preSchool"],
+h4 {
+    margin-left: 20px;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[name="parent"] {
+    width: 80%;
+    margin: 10px 0px;
+
+}
+
+.nav-buttons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+
+    left: 0;
+    background-color: #fff;
+
+}
+
+.nav-buttons li {
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.nav-buttons li a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    font-size: 20px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-buttons li a.active,
+.nav-buttons li a:hover {
+    border-bottom-color: #333;
+}
+
+
+.content {
+
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    flex-direction: column;
+}
+
+form {
+    margin-top: 22%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #141111;
+    padding: 3px 0;
+    position: relative;
+    bottom: -339px;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+    color: #f9f9f9;
+}
