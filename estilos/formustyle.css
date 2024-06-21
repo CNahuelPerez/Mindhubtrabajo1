@@ -189,20 +189,18 @@ footer p {
     color: #f9f9f9;
 }
 
-@media (width <= 425px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+@media (width <=425px) {
+    form {
+        margin-top: 200%;
     }
 
-    body {
-        margin: 0px;
-        padding: 0% 3px;
+    footer {
+        bottom: -659px;
     }
 
-    h1 {
-        text-align: center;
+    .nav-buttons {
+        top: 21%;
+        flex-direction: row;
+        left: -10px;
     }
-
 }
