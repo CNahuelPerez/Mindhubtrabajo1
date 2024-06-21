@@ -83,6 +83,7 @@ input[type="radio"] {
 .division {
     width: 100%;
     display: flex;
+    align-items: center;
 }
 
 input[type="text"],
